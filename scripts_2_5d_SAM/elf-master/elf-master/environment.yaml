@@ -1,0 +1,21 @@
+channels:
+    - conda-forge
+name:
+    elf-dev
+dependencies:
+    - affogato
+    - h5py
+    - imageio
+    - intern
+    - mrcfile
+    - nifty
+    - numba
+    - pandas
+    - pip
+    - scikit-image
+    - scikit-learn
+    - skan
+    - tqdm
+    - threadpoolctl
+    - vigra
+    - z5py
