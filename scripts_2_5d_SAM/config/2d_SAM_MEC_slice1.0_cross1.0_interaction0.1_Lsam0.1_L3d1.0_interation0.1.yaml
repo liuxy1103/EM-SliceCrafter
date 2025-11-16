@@ -1,4 +1,4 @@
-NAME: '2d_SAM_ac34_slice1.0_aff1.0_cross1.0_interaction0.1_Lsam0.1_L3d1.0_interation1.0_v6'
+NAME: '2d_SAM_MEC_slice1.0_cross1.0_interaction0.1_Lsam0.1_L3d1.0_interation0.1'
 
 MODEL:
     input_nc: 1
@@ -38,21 +38,20 @@ TRAIN:
     loss_weight_2d_3d: 1.0
     loss_weight_2d_SAM: 0.1
     interaction: True
-    loss_interaction: 1.0
+    loss_interaction: 0.1
     loss_interaction_2d: 0.1
     loss_2d_slice_weight: 1.0
     loss_cross_weight: 1.0
-    loss_aff1: 1.0
     ct_weight: 0.1
     random_seed: 555  # -1 is none
 
 DATA:
     if_sparse: False
     sparse_id: 0
-    dataset_name: 'ac4'  # 'snemi3d-ac3', 'cremi-A', 'cremi'
-    valid_dataset: 'ac3'  # 'snemi3d-ac3', 'cremi-A', 'cremi'
-    train_split: 80
-    test_split: 100
+    dataset_name: 'wafer4'  # 'snemi3d-ac3', 'cremi-A', 'cremi'
+    valid_dataset: 'wafer4'  # 'snemi3d-ac3', 'cremi-A', 'cremi'
+    train_split: 100
+    test_split: 25
     data_folder: '/h3cstore_ns/Backbones/data'
     patch_size:
         - 256
