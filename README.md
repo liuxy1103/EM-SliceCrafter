@@ -15,7 +15,7 @@ This repository contains the official implementation of our paper submitted to *
 - **🎯 Dual-Distillation Framework:** Novel combination of Cross-Dimension Affinity Distillation (CAD) and Internal-Dimension Affinity Distillation (IAD)
 - **🤖 SAM Integration:** First work to leverage Segment Anything Model (SAM) for EM neuron segmentation via learnable adapter
 - **🏆 SOTA Performance:** Superior results on CREMI, AC3/4, Wafer4, and ZEBRAFINCH datasets
-- **💾 Lightweight Design:** Only 0.9M parameters vs. 1.5M-84M for competing 3D CNNs
+- **💾 Lightweight Design:** Only 0.9M parameters vs. 1.5M-84M for competing 3D networks
 - **🌍 Robust Generalization:** Validated across diverse EM modalities (ssTEM, mbSEM, SBEM) and biological samples
 
 ---
