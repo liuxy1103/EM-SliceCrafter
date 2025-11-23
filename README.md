@@ -11,7 +11,7 @@ This repository contains the official implementation of our paper submitted to *
 
 ## 🔥 Highlights
 
-- **⚡ 33× Faster Inference:** Achieves state-of-the-art accuracy with only 1/33 inference time compared to 3D CNNs
+- **⚡ 33× Faster Inference:** Achieves state-of-the-art accuracy with only 1/33 inference time compared to 3D networks
 - **🎯 Dual-Distillation Framework:** Novel combination of Cross-Dimension Affinity Distillation (CAD) and Internal-Dimension Affinity Distillation (IAD)
 - **🤖 SAM Integration:** First work to leverage Segment Anything Model (SAM) for EM neuron segmentation via learnable adapter
 - **🏆 SOTA Performance:** Superior results on CREMI, AC3/4, Wafer4, and ZEBRAFINCH datasets
